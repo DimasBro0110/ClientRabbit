@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "urlRecord",
+  "fields": [
+    { "name": "msidn", "type": "long" },
+    { "name": "lacCell", "type": "string" },
+    { "name": "mainUrl", "type": "string" },
+    { "name": "cookie", "type": "string" },
+    { "name": "protocol", "type": "string" },
+    { "name": "timestampStart", "type": "long" },
+    { "name": "timestampEnd", "type": "long" },
+    { "name": "downloadKb", "type": "long" },
+    { "name": "uploadKb", "type": "long" },
+    { "name": "reason", "type": "string" }
+  ]
+}
